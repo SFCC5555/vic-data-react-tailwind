@@ -1,0 +1,78 @@
+[
+  {
+    "name": "AC",
+    "color": "light"
+  },
+  {
+    "name": "+/-",
+    "color": "light"
+  },
+  {
+    "name": "%",
+    "color": "light"
+  },
+  {
+    "name": "÷",
+    "color": "orange"
+  },
+  {
+    "name": "7",
+    "color": "dark"
+  },
+  {
+    "name": "8",
+    "color": "dark"
+  },
+  {
+    "name": "9",
+    "color": "dark"
+  },
+  {
+    "name": "x",
+    "color": "orange"
+  },
+  {
+    "name": "4",
+    "color": "dark"
+  },
+  {
+    "name": "5",
+    "color": "dark"
+  },
+  {
+    "name": "6",
+    "color": "dark"
+  },
+  {
+    "name": "-",
+    "color": "orange"
+  },
+  {
+    "name": "1",
+    "color": "dark"
+  },
+  {
+    "name": "2",
+    "color": "dark"
+  },
+  {
+    "name": "3",
+    "color": "dark"
+  },
+  {
+    "name": "+",
+    "color": "orange"
+  },
+  {
+    "name": "0",
+    "color": "dark"
+  },
+  {
+    "name": ".",
+    "color": "dark"
+  },
+  {
+    "name": "=",
+    "color": "orange"
+  }
+]

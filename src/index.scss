@@ -1,0 +1,96 @@
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --light-background: #a4a4a4;
+  --light-text: black;
+  --dark-background: #333333;
+  --dark-text: white;
+  --orange-background: #f59c1d;
+  --orange-text: white;
+}
+
+@each $color in "light", "dark", "orange" {
+  .color-#{$color} {
+    color: var(--#{$color}-text);
+    background-color: var(--#{$color}-background);
+  }
+}
+
+body {
+  min-height: 620px;
+
+}
+
+.font-size-3-rem {
+  font-size: 3rem;
+}
+
+.font-size-4-rem {
+  font-size: 4rem;
+}
+
+.state-bar {
+  margin-top: 15px;
+  margin-inline: 45px;
+}
+
+.display {
+  text-align: right;
+}
+
+.keypad {
+  height: 390px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.btn-normal {
+  align-self: center;
+  max-width: 70px;
+  border-radius: 50%;
+  aspect-ratio: 1 / 1;
+}
+
+.btn-special {
+  grid-column: span 2;
+  border-radius: 50px;
+  text-align: start;
+  padding-left: 25px;
+}
+
+.bar {
+  width: 35%;
+  height: 3px;
+}
+
+@media screen and (min-width: 460px) {
+  .main-container {
+    max-width: 350px;
+    max-height: 750px;
+    border-radius: 75px;
+  }
+
+  .state-bar {
+    margin-top: 25px;
+    margin-inline: 60px;
+  }
+
+  .keypad {
+    height: 340px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+
+  .btn-normal {
+    max-width: 60px;
+  }
+}
