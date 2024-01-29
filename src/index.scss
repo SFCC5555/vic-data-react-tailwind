@@ -24,8 +24,8 @@
 }
 
 body {
+  height: 100svh;
   min-height: 620px;
-
 }
 
 .font-size-3-rem {
@@ -41,14 +41,8 @@ body {
   margin-inline: 45px;
 }
 
-.display {
-  text-align: right;
-}
-
 .keypad {
   height: 390px;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
   gap: 10px;
 }
 
@@ -85,9 +79,6 @@ body {
 
   .keypad {
     height: 340px;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
   }
 
   .btn-normal {

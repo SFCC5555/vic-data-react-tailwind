@@ -27,13 +27,13 @@ const Calculator = () => {
   return (
     <div className="flex flex-col m-6">
       <div
-        className={`display overflow-auto text-white p-6 font-light font-size-${
+        className={`overflow-auto text-white text-right p-6 font-light font-size-${
           display === "Syntax Error" || display === "Infinity" ? "3" : "4"
         }-rem`}
       >
         {display}
       </div>
-      <section className="keypad">
+      <section className="keypad grid grid-cols-4">
         {buttons.map((button) => (
           <button
             key={button.name}
